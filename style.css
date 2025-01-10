@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../Img/milkyway.png") repeat-x;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 700px;
+    height: 700px;
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    position: relative;
+}
+
+.sun {
+    width: 60px;
+    height: 60px;
+    background: url("../img/sun.png");
+    background-size: cover;
+    position: absolute;
+    top: 320px;
+    left: 320px;
+
+    animation-name: sunani;
+    animation-duration: 35s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+}
+
+@keyframes sunani {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(359deg);
+    }
+}
+
+@keyframes planet {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(359deg);
+    }
+}
+
+.mercurybg {
+    width: 75px;
+    height: 75px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -7px;
+    top: -8px;
+    animation-name: planet;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.mercury {
+    width: 15px;
+    height: 15px;
+    background: url("../img/mercury.png");
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+
+    animation-name: planet;
+    /* transform-origin: -45px 0px; */
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-play-state: paused; */
+}
+
+
+
+.venusbg {
+    width: 120px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    animation-name: planet;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.venus {
+    width: 22px;
+    height: 22px;
+    background: url("../img/venus.png");
+    background-size: cover;
+    position: absolute;
+    top: 105px;
+    right: 45px
+}
+
+.earthbg {
+    width: 190px;
+    height: 190px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -65px;
+    top: -65px;
+    animation-name: planet;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.earth {
+    width: 30px;
+    height: 30px;
+    background: url("../img/earth.png");
+    background-size: cover;
+    position: absolute;
+    position: relative;
+    top: 85px;
+    right: 15px;
+}
+
+.moonbg {
+    width: 50px;
+    height: 50px;
+    border-radius: 2px solid white;
+    border-radius: 50%;
+    /* position: absolute;
+    right:-20px;
+    top:-20px; */
+    /* animation-name: planet; */
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.moon {
+    width: 10px;
+    height: 10px;
+    background: url("../img/moon.png");
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    right: 20px
+}
+
+.marsbg {
+    width: 290px;
+    height: 290px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -115px;
+    top: -115px;
+    animation-name: planet;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.mars {
+    width: 35px;
+    height: 35px;
+    background: url("../img/mars.png");
+    background-size: cover;
+    position: absolute;
+    top: 260px;
+    right: 75px
+}
+
+.jupiterbg {
+    width: 370px;
+    height: 370px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -155px;
+    top: -155px;
+    animation-name: planet;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.jupiter {
+    width: 40px;
+    height: 40px;
+    background: url("../img/jupiter.png");
+    background-size: cover;
+    position: absolute;
+    top: 330px;
+    right: 85px
+}
+
+.saturnbg {
+    width: 480px;
+    height: 480px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -205px;
+    top: -205px;
+    animation-name: planet;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.saturn {
+    width: 48px;
+    height: 48px;
+    background: url("../img/saturn.png");
+    background-size: cover;
+    position: absolute;
+    top: 425px;
+    right: 108px
+}
+
+.uranusbg {
+    width: 590px;
+    height: 590px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -260px;
+    top: -260px;
+    animation-name: planet;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.uranus {
+    width: 55px;
+    height: 55px;
+    background: url("../img/uranus.png");
+    background-size: cover;
+    position: absolute;
+    top: 510px;
+    right: 110px
+}
