@@ -17,7 +17,7 @@ body {
 .main {
     width: 700px;
     height: 700px;
-    /* border: 2px solid white; */
+    /* border: 2px dotted white; */
     border-radius: 50%;
     position: relative;
 }
@@ -30,9 +30,8 @@ body {
     position: absolute;
     top: 320px;
     left: 320px;
-
     animation-name: sunani;
-    animation-duration: 35s;
+    animation-duration: 25s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     /* animation-play-state: paused; */
@@ -61,7 +60,7 @@ body {
 .mercurybg {
     width: 75px;
     height: 75px;
-    border: 2px solid white;
+    border: 2px dotted white;
     border-radius: 50%;
     position: absolute;
     right: -7px;
@@ -93,7 +92,7 @@ body {
 .venusbg {
     width: 120px;
     height: 120px;
-    border: 2px solid white;
+    border: 2px dotted white;
     border-radius: 50%;
     position: absolute;
     right: -30px;
@@ -117,7 +116,7 @@ body {
 .earthbg {
     width: 190px;
     height: 190px;
-    border: 2px solid white;
+    border: 2px dotted white;
     border-radius: 50%;
     position: absolute;
     right: -65px;
@@ -139,15 +138,15 @@ body {
     right: 15px;
 }
 
-.moonbg {
-    width: 50px;
-    height: 50px;
-    border-radius: 2px solid white;
+.earthbg > .earth.moonbg {
+    width: 150px;
+    height: 150px;
+    border-radius: 2px dotted white;
     border-radius: 50%;
-    /* position: absolute;
+    position: absolute;
     right:-20px;
-    top:-20px; */
-    /* animation-name: planet; */
+    top:-20px;
+    animation-name: planet;
     animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -166,7 +165,7 @@ body {
 .marsbg {
     width: 290px;
     height: 290px;
-    border: 2px solid white;
+    border: 2px dotted white;
     border-radius: 50%;
     position: absolute;
     right: -115px;
@@ -190,7 +189,7 @@ body {
 .jupiterbg {
     width: 370px;
     height: 370px;
-    border: 2px solid white;
+    border: 2px dotted white;
     border-radius: 50%;
     position: absolute;
     right: -155px;
@@ -214,7 +213,7 @@ body {
 .saturnbg {
     width: 480px;
     height: 480px;
-    border: 2px solid white;
+    border: 2px dotted white;
     border-radius: 50%;
     position: absolute;
     right: -205px;
@@ -238,7 +237,7 @@ body {
 .uranusbg {
     width: 590px;
     height: 590px;
-    border: 2px solid white;
+    border: 2px dotted white;
     border-radius: 50%;
     position: absolute;
     right: -260px;
